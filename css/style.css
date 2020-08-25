@@ -545,29 +545,57 @@ pre {
 
 @media screen and (max-width: 800px) {
     body {
-        margin: 2em;
+        margin: 1em;
     }
 
     h1 {
+        font-size: 1.5em;
         width: 100%;
         text-align: center;
+        margin-bottom:1em;
+    }
+
+    .centFocus{
+        margin-top:0px;
+    }
+
+    h2{
+        font-size: 1.3em;
+    }
+
+    #projects h3, #schedule h3, #exercises h3{
+        font-size: 1em;
+    }
+
+    h4{
+        font-size: .75em;
     }
 
 
     #links {
         text-align: center;
-        width: 95%;
+        padding: 0px;
+        /* width: 95%; */
+
     }
 
     nav {
         width: 100%;
         left: 0;
-        top: 5em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
     }
 
     .headingText {
         display: initial;
         text-align: center;
+    }
+    .headingText h4:not(:last-child){
+        padding: 0px;
     }
 
     .weekBox {
@@ -576,12 +604,14 @@ pre {
     }
 
     .content {
-        padding: 0;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 
     .parallax {
         display: none;
     }
+    
 
 
 }
