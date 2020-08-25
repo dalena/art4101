@@ -546,6 +546,7 @@ pre {
 @media screen and (max-width: 800px) {
     body {
         margin: 1em;
+        /* font-size: 1.1em; */
     }
 
     h1 {
@@ -588,6 +589,13 @@ pre {
     nav ul {
         margin: 0;
         padding: 0;
+    }
+
+    ul{
+        padding-inline-start: 20px;
+        margin-block-end: 0em;
+
+
     }
 
     .headingText {
