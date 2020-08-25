@@ -147,10 +147,12 @@ h3 {
 
 }
 
-h3,
+#syllabus h3,
 table {
     margin-top: 2em;
 }
+
+
 
 h4 {
     font-weight: normal;
@@ -160,7 +162,22 @@ h4 {
 .highlight {
     background: yellow;
     /* color: #fff; */
+}
+.hiRead{
+    background: #ff00ff1a;
+}
 
+.hiExer{
+    background: #00ffff44;
+}
+
+.hiProj{
+    background: #fbff0044;
+}
+
+.hiGrade a{
+    background: none;
+    border-bottom: 2px solid  #ff00ffb4;
 }
 
 nav ul {
@@ -204,7 +221,7 @@ section {
 
 
 #schedule h3,
-#projects h3 {
+#projects h3, #exercises h3 {
     padding: .3em;
     margin: 0.5em 0;
     display: block;
@@ -213,36 +230,28 @@ section {
 
 #schedule a {
     background: none;
+    /* background: #ff00ff46; */
     transition: all 0.5s ease-in-out;
-    border-bottom: 1px solid #00ffff;
+    /* border-bottom: 1px solid #00ffff; */
+    border-bottom: 2px solid  #ff00ffb4;
 }
 
 #schedule a:hover {
     color: #000;
     background: #00ffff;
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 
-.aBox {
-    background: #ff00ff1a;
+#projects ul{
+    margin-top:0;
+}
+#schedule ul{
+    margin-top:0;
 }
 
-.bBox {
-    background: #00ffff1a;
+#schedule li{
+    line-height: 1.4em;
 }
-
-.aBox,
-.bBox {
-    display: flex;
-    padding-left: 1em;
-    justify-content: center;
-    text-align: center;
-}
-
-.dayBox h4 {
-    margin: .2em;
-}
-
 img {
     max-width: 100%;
 }
@@ -273,11 +282,20 @@ tr {
     width: 70%;
 
 }
+
 #schedule .tg {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+/* #schedule .sWeek{
+    min-width: 100px;
+}
+#schedule .sDate{
+    min-width: 50px;
+}
+#schedule .sProgram{
+    min-width: 600px;
+} */
 #schedule .tg td {
     border-color: black;
     border-style: solid;
