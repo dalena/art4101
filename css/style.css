@@ -247,6 +247,7 @@ section {
 }
 #schedule ul{
     margin-top:0;
+    margin-bottom: 0;
 }
 
 #schedule li{
@@ -269,17 +270,18 @@ tr {
 }
 
 .grading td:nth-child(1) {
-    width: 3%;
+    width: 2%;
     font-weight: bold;
 }
 
 .grading td:nth-child(2) {
-    width: 12%;
+    width: 7%;
     text-align: center;
 }
 
 .grading td {
     width: 70%;
+    word-break: break-all;
 
 }
 
