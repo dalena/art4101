@@ -196,6 +196,10 @@ h4 {
     background: #00ffff44;
 }
 
+.hiNoClass{
+    background: #ff000044;
+}
+
 .hiExtend{
     background: #00ff2244;
     /* color:red; */
